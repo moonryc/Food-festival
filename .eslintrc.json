@@ -33,8 +33,5 @@
     "semi": ["error", "always"],
     "radix": "off"
   },
-  "extends": [
-    "prettier",
-    "eslint:recommended"
-  ]
+  "extends": ["prettier", "eslint:recommended"]
 }

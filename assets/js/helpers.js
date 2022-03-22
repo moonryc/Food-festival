@@ -6,10 +6,6 @@ function createLoremIpsum(numWords = 50) {
   return result;
 }
 
-
-
-
-
 const dateConverter = function (UNIX_timestamp) {
   const a = new Date(UNIX_timestamp);
   const months = [
@@ -33,4 +29,4 @@ const dateConverter = function (UNIX_timestamp) {
   return result;
 };
 
-module.exports = {dateConverter, createLoremIpsum};
+module.exports = { dateConverter, createLoremIpsum };

@@ -1,6 +1,6 @@
 function createEl(htmlString, attrs, ...children) {
   if (typeof htmlString !== 'string') {
-    throw Error('Argument \'htmlString\' is required and must be a string');
+    throw Error("Argument 'htmlString' is required and must be a string");
   }
 
   const el = document.createElement(htmlString);
@@ -29,7 +29,5 @@ function createEl(htmlString, attrs, ...children) {
 
   return el;
 }
-
-
 
 module.exports = createEl;
